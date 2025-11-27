@@ -9,7 +9,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ## 🎯 Learning Path
 
 ### Tutorial 1: Embeddings & Positional Encoding
-**File:** `01_embeddings_and_positional_encoding.ipynb`  
+**File:** [01_embeddings_and_positional_encoding.ipynb](01_embeddings_and_positional_encoding.ipynb)  
 **Time:** ~45 minutes
 
 **What You'll Learn:**
@@ -33,7 +33,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ---
 
 ### Tutorial 2: Scaled Dot-Product Attention ⭐ NEW
-**File:** `02_scaled_dot_product_attention.ipynb`  
+**File:** [02_scaled_dot_product_attention.ipynb](02_scaled_dot_product_attention.ipynb)  
 **Time:** ~50 minutes
 
 **What You'll Learn:**
@@ -58,7 +58,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ---
 
 ### Tutorial 3: Multi-Head Attention & Masking
-**File:** `03_multi_head_attention.ipynb`  
+**File:** [03_multi_head_attention.ipynb](03_multi_head_attention.ipynb)  
 **Time:** ~55 minutes
 
 **What You'll Learn:**
@@ -83,7 +83,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ---
 
 ### Tutorial 4: Feed-Forward Networks & Layer Normalization ⭐ NEW
-**File:** `04_feed_forward_networks.ipynb`  
+**File:** [04_feed_forward_networks.ipynb](04_feed_forward_networks.ipynb)  
 **Time:** ~50 minutes
 
 **What You'll Learn:**
@@ -111,7 +111,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ---
 
 ### Tutorial 5: Encoder & Decoder Architecture ⭐ NEW
-**File:** `05_encoder_decoder.ipynb`  
+**File:** [05_encoder_decoder.ipynb](05_encoder_decoder.ipynb)  
 **Time:** ~60 minutes
 
 **What You'll Learn:**
@@ -139,7 +139,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ---
 
 ### Tutorial 6: Complete Transformer & Training
-**File:** `06_complete_transformer.ipynb`  
+**File:** [06_complete_transformer.ipynb](06_complete_transformer.ipynb)  
 **Time:** ~65 minutes
 
 **What You'll Learn:**
@@ -167,7 +167,7 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 ---
 
 ### Tutorial 7: Emergent Reasoning with DeepSeek
-**File:** `07_emergent_reasoning.ipynb`  
+**File:** [07_emergent_reasoning.ipynb](07_emergent_reasoning.ipynb)  
 **Time:** ~70 minutes
 
 **What You'll Learn:**
@@ -243,7 +243,7 @@ jupyter lab
 ```
 
 ### 4. Start with Tutorial 1
-Navigate to `notebooks/archive/01_embeddings_and_positional_encoding.ipynb`
+Navigate to `notebooks/01_embeddings_and_positional_encoding.ipynb`
 
 ---
 
