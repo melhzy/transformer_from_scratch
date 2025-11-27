@@ -115,7 +115,7 @@ python examples/text_generation.py
 # Launch Jupyter Lab
 jupyter lab
 
-# Navigate to notebooks/ directory
+# Navigate to transformer-foundation/ directory
 # Open: 01_embeddings_and_positional_encoding.ipynb
 ```
 
@@ -199,7 +199,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 ### Learn More
 
 - 📖 Read the [full README](README.md)
-- 📓 Try the [Jupyter notebooks](notebooks/)
+- 📓 Try the [Jupyter notebooks](transformer-foundation/)
 - 🔬 Run the [examples](examples/)
 - 🧪 Study the [tests](tests/)
 

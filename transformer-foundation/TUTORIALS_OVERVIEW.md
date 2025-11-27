@@ -243,7 +243,7 @@ jupyter lab
 ```
 
 ### 4. Start with Tutorial 1
-Navigate to `notebooks/01_embeddings_and_positional_encoding.ipynb`
+Navigate to `transformer-foundation/01_embeddings_and_positional_encoding.ipynb`
 
 ---
 

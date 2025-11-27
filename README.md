@@ -94,12 +94,15 @@ python src/transformer.py
 
 ### For Visual Learners
 
-Explore the Jupyter notebooks in the `notebooks/` directory:
+Explore the Jupyter notebooks in the `transformer-foundation/` directory:
 
 1. **01_embeddings_and_positional_encoding.ipynb** — Visualize embeddings and position encodings
-2. **02_attention_mechanism.ipynb** — Interactive attention visualizations
-3. **03_complete_transformer.ipynb** — Build and train a Transformer
-4. **04_emergent_reasoning.ipynb** — Explore advanced capabilities
+2. **02_scaled_dot_product_attention.ipynb** — Core attention mechanism
+3. **03_multi_head_attention.ipynb** — Interactive attention visualizations
+4. **04_feed_forward_networks.ipynb** — FFN and layer normalization
+5. **05_encoder_decoder.ipynb** — Encoder and decoder architecture
+6. **06_complete_transformer.ipynb** — Build and train a Transformer
+7. **07_emergent_reasoning.ipynb** — Explore advanced capabilities with DeepSeek
 
 ```bash
 # Launch Jupyter Lab
@@ -131,11 +134,15 @@ transformer_from_scratch/
 │   ├── transformer.py            # Complete Transformer model
 │   └── __init__.py
 │
-├── notebooks/                     # Jupyter notebooks
+├── transformer-foundation/        # Jupyter notebooks (tutorials)
 │   ├── 01_embeddings_and_positional_encoding.ipynb
-│   ├── 02_attention_mechanism.ipynb
-│   ├── 03_complete_transformer.ipynb
-│   └── 04_emergent_reasoning.ipynb
+│   ├── 02_scaled_dot_product_attention.ipynb
+│   ├── 03_multi_head_attention.ipynb
+│   ├── 04_feed_forward_networks.ipynb
+│   ├── 05_encoder_decoder.ipynb
+│   ├── 06_complete_transformer.ipynb
+│   ├── 07_emergent_reasoning.ipynb
+│   └── TUTORIALS_OVERVIEW.md
 │
 ├── tests/                         # Unit tests
 │   ├── test_embeddings.py

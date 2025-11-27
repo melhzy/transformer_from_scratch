@@ -133,7 +133,7 @@ if __name__ == "__main__":
 
 ## Further Reading
 
-- See [notebooks/](../notebooks/) for interactive Jupyter notebooks
+- See [transformer-foundation/](../transformer-foundation/) for interactive Jupyter notebooks
 - Check [tests/](../tests/) for unit tests showing module usage
 - Read the [main README](../README.md) for architecture details
 
