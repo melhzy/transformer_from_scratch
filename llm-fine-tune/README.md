@@ -1,8 +1,85 @@
-# LLM Fine-Tuning Examples
+# LLM Fine-Tuning Examples 🚀
 
-This directory contains example scripts for fine-tuning and working with Transformer models, including visualization tools and generation strategies.
+Comprehensive tutorials and examples for fine-tuning Large Language Models using modern techniques like LoRA, QLoRA, and instruction tuning.
 
-## Available Examples
+**🎯 Goal**: Learn practical fine-tuning techniques used by Unsloth AI and the open-source community.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/)
+
+---
+
+## 📚 Tutorial Series
+
+### Tutorial 1: Introduction to Fine-Tuning
+**File**: [01_introduction_to_fine_tuning.ipynb](01_introduction_to_fine_tuning.ipynb)  
+**Time**: ~45 minutes
+
+**What You'll Learn**:
+- What is fine-tuning and why it matters
+- Different strategies: Full, PEFT, LoRA, QLoRA
+- Parameter efficiency comparison
+- When to use each approach
+- LoRA mathematical foundations
+
+**Prerequisites**:
+- Complete [transformer-foundation/06_complete_transformer.ipynb](../transformer-foundation/06_complete_transformer.ipynb)
+- Basic understanding of PyTorch
+
+---
+
+### Tutorial 2: LoRA Implementation (Coming Soon)
+**File**: `02_lora_implementation.ipynb`  
+**Time**: ~60 minutes
+
+**What You'll Learn**:
+- Implement LoRA from scratch
+- Apply LoRA to attention layers
+- Merge and unmerge weights
+- Compare with full fine-tuning
+- Memory profiling
+
+---
+
+### Tutorial 3: Data Preparation (Coming Soon)
+**File**: `03_data_preparation.ipynb`  
+**Time**: ~50 minutes
+
+**What You'll Learn**:
+- Dataset formats for fine-tuning
+- Instruction-following format
+- Tokenization strategies
+- Data collation and batching
+- Quality control
+
+---
+
+### Tutorial 4: Instruction Tuning (Coming Soon)
+**File**: `04_instruction_tuning.ipynb`  
+**Time**: ~75 minutes
+
+**What You'll Learn**:
+- Fine-tune for instruction following
+- Training loop implementation
+- Learning rate scheduling
+- Checkpoint management
+- Monitoring training
+
+---
+
+### Tutorial 5: Evaluation Metrics (Coming Soon)
+**File**: `05_evaluation_metrics.ipynb`  
+**Time**: ~45 minutes
+
+**What You'll Learn**:
+- Evaluate fine-tuned models
+- Perplexity, ROUGE, BLEU scores
+- Human evaluation setup
+- Compare before/after
+- A/B testing strategies
+
+---
+
+## 🛠️ Available Examples
 
 ### 1. Attention Visualization (`attention_visualization.py`)
 
@@ -131,11 +208,57 @@ if __name__ == "__main__":
     main()
 ```
 
+## 📖 Learning Path
+
+### Recommended Order:
+
+1. **Start with Foundations**: Complete [transformer-foundation/](../transformer-foundation/) tutorials 1-6
+2. **Understand Architecture**: Study [src/](../src/) implementation
+3. **Read Papers**: Review [papers/](../papers/) - especially DeepSeek-R1
+4. **Begin Fine-Tuning**: Work through tutorials 1-5 in this directory
+5. **Practice**: Try examples with your own data
+
+### Prerequisites:
+
+- ✅ Complete transformer-foundation tutorials
+- ✅ Understand attention mechanisms
+- ✅ Familiar with PyTorch
+- ✅ Basic knowledge of gradient descent
+
+---
+
+## 🔗 Key References
+
+### Internal Resources:
+- **[transformer-foundation/](../transformer-foundation/)** - Core Transformer tutorials
+- **[src/](../src/)** - Our Transformer implementation
+- **[papers/](../papers/)** - Research papers (Attention is All You Need, DeepSeek-R1)
+- **[tests/](../tests/)** - Unit tests showing module usage
+
+### External Inspirations:
+- **Unsloth AI** - Optimized fine-tuning (referenced in tutorials)
+- **Hugging Face PEFT** - Parameter-efficient fine-tuning library
+- **QLoRA Paper** - Efficient quantized fine-tuning
+
+---
+
+## 🎯 What Makes This Different?
+
+✨ **From Scratch Understanding**: Built on our custom Transformer implementation  
+🔗 **Connected Learning**: References transformer-foundation tutorials  
+📊 **Visual Learning**: Heavy visualization of concepts  
+🎓 **Research-Backed**: References papers in ../papers/  
+💡 **Practical Focus**: Real-world fine-tuning techniques  
+🚀 **Colab-Ready**: Run everything in browser
+
+---
+
 ## Further Reading
 
-- See [transformer-foundation/](../transformer-foundation/) for interactive Jupyter notebooks
+- See [transformer-foundation/](../transformer-foundation/) for Transformer fundamentals
 - Check [tests/](../tests/) for unit tests showing module usage
 - Read the [main README](../README.md) for architecture details
+- Study [papers/](../papers/) for research background
 
 ## Troubleshooting
 
