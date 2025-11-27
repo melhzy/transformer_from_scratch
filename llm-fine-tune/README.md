@@ -10,9 +10,10 @@ Comprehensive tutorials and examples for fine-tuning Large Language Models using
 
 ## 📚 Tutorial Series
 
-### Tutorial 1: Introduction to Fine-Tuning
+### Tutorial 1: Introduction to Fine-Tuning ✅
 **File**: [01_introduction_to_fine_tuning.ipynb](01_introduction_to_fine_tuning.ipynb)  
-**Time**: ~45 minutes
+**Time**: ~45 minutes  
+**Status**: Complete
 
 **What You'll Learn**:
 - What is fine-tuning and why it matters
@@ -27,55 +28,79 @@ Comprehensive tutorials and examples for fine-tuning Large Language Models using
 
 ---
 
-### Tutorial 2: LoRA Implementation (Coming Soon)
-**File**: `02_lora_implementation.ipynb`  
-**Time**: ~60 minutes
+### Tutorial 2: LoRA Implementation ✅
+**File**: [02_lora_implementation.ipynb](02_lora_implementation.ipynb)  
+**Time**: ~60 minutes  
+**Status**: Complete
 
 **What You'll Learn**:
 - Implement LoRA from scratch
-- Apply LoRA to attention layers
-- Merge and unmerge weights
-- Compare with full fine-tuning
-- Memory profiling
+- Apply LoRA to multi-head attention
+- Build complete LoRA encoder
+- Weight merging for efficient inference
+- Memory profiling and speed comparisons
+- Training example with LoRA parameters
+
+**Prerequisites**:
+- Tutorial 1
+- [transformer-foundation/03_multi_head_attention.ipynb](../transformer-foundation/03_multi_head_attention.ipynb)
+- [transformer-foundation/04_feed_forward_networks.ipynb](../transformer-foundation/04_feed_forward_networks.ipynb)
 
 ---
 
-### Tutorial 3: Data Preparation (Coming Soon)
-**File**: `03_data_preparation.ipynb`  
-**Time**: ~50 minutes
+### Tutorial 3: Data Preparation ✅
+**File**: [03_data_preparation.ipynb](03_data_preparation.ipynb)  
+**Time**: ~60 minutes  
+**Status**: Complete
 
 **What You'll Learn**:
-- Dataset formats for fine-tuning
-- Instruction-following format
-- Tokenization strategies
-- Data collation and batching
-- Quality control
+- Dataset formats (prompt-completion, instruction, chat)
+- Simple tokenizer implementation
+- Dataset classes for different formats
+- Data collation with padding
+- Quality control and filtering
+- Data visualization and statistics
+
+**Prerequisites**:
+- Tutorials 1-2
+- [transformer-foundation/01_embeddings_and_positional_encoding.ipynb](../transformer-foundation/01_embeddings_and_positional_encoding.ipynb)
 
 ---
 
-### Tutorial 4: Instruction Tuning (Coming Soon)
-**File**: `04_instruction_tuning.ipynb`  
-**Time**: ~75 minutes
+### Tutorial 4: Instruction Tuning ✅
+**File**: [04_instruction_tuning.ipynb](04_instruction_tuning.ipynb)  
+**Time**: ~75 minutes  
+**Status**: Complete
 
 **What You'll Learn**:
-- Fine-tune for instruction following
-- Training loop implementation
-- Learning rate scheduling
-- Checkpoint management
-- Monitoring training
+- Complete instruction tuning pipeline
+- Training with LoRA adapters
+- Learning rate scheduling (warmup + cosine)
+- Gradient accumulation and clipping
+- Text generation with fine-tuned model
+- Checkpoint saving and loading (LoRA-only)
+
+**Prerequisites**:
+- Tutorials 1-3
+- [transformer-foundation/06_complete_transformer.ipynb](../transformer-foundation/06_complete_transformer.ipynb)
 
 ---
 
-### Tutorial 5: Evaluation Metrics (Coming Soon)
-**File**: `05_evaluation_metrics.ipynb`  
-**Time**: ~45 minutes
+### Tutorial 5: Evaluation Metrics ✅
+**File**: [05_evaluation_metrics.ipynb](05_evaluation_metrics.ipynb)  
+**Time**: ~60 minutes  
+**Status**: Complete
 
 **What You'll Learn**:
-- Evaluate fine-tuned models
-- Perplexity, ROUGE, BLEU scores
-- Human evaluation setup
-- Compare before/after
-- A/B testing strategies
+- Perplexity for language modeling
+- BLEU scores for translation/generation
+- ROUGE scores for summarization
+- Exact Match and F1 for QA tasks
+- Comprehensive evaluation suite
+- Before/after comparison visualization
+
+**Prerequisites**:
+- Tutorials 1-4
 
 ---
 
