@@ -80,9 +80,23 @@ print(f"Generated sequence: {generated[0].tolist()}")
 
 **No installation required!** Run all tutorials directly in your browser:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/)
+**Transformer Foundations (Start Here):**
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/01_embeddings_and_positional_encoding.ipynb) Tutorial 1: Embeddings & Positional Encoding
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/02_scaled_dot_product_attention.ipynb) Tutorial 2: Scaled Dot-Product Attention
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/03_multi_head_attention.ipynb) Tutorial 3: Multi-Head Attention
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/04_feed_forward_networks.ipynb) Tutorial 4: Feed-Forward Networks
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/05_encoder_decoder.ipynb) Tutorial 5: Encoder & Decoder
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/06_complete_transformer.ipynb) Tutorial 6: Complete Transformer
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/07_emergent_reasoning.ipynb) Tutorial 7: Emergent Reasoning
 
-Simply click the "Open in Colab" badge in any notebook and start learning immediately!
+**LLM Fine-Tuning (Advanced):**
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/01_introduction_to_fine_tuning.ipynb) Tutorial 1: Introduction to Fine-Tuning
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/02_lora_implementation.ipynb) Tutorial 2: LoRA Implementation
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/03_data_preparation.ipynb) Tutorial 3: Data Preparation
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/04_instruction_tuning.ipynb) Tutorial 4: Instruction Tuning
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/05_evaluation_metrics.ipynb) Tutorial 5: Evaluation Metrics
+
+Click any badge above to open that tutorial directly in Google Colab and start learning immediately!
 
 ---
 
