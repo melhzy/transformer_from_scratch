@@ -4,6 +4,10 @@ Complete step-by-step learning path for understanding Transformers from scratch,
 
 **NEW: Expanded to 7 comprehensive tutorials for granular learning!**
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/)
+
+**✨ All notebooks are compatible with Google Colab!** Click the Colab badge in any notebook to run it directly in your browser without any local setup.
+
 ---
 
 ## 🎯 Learning Path
@@ -225,6 +229,19 @@ After completing all 7 tutorials, you will be able to:
 ---
 
 ## 🛠️ Setup Instructions
+
+### Option 1: Google Colab (Easiest - No Setup Required!)
+
+1. Click any tutorial link below
+2. Click the "Open in Colab" badge at the top of the notebook
+3. Run the first two cells to set up the environment
+4. Start learning immediately!
+
+**No installation, no configuration, runs in your browser!**
+
+---
+
+### Option 2: Local Setup
 
 ### 1. Install Dependencies
 ```bash

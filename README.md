@@ -76,6 +76,16 @@ print(f"Generated sequence: {generated[0].tolist()}")
 
 ## 📚 Learning Path
 
+### Quick Start: Google Colab (Recommended!)
+
+**No installation required!** Run all tutorials directly in your browser:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/transformer-foundation/)
+
+Simply click the "Open in Colab" badge in any notebook and start learning immediately!
+
+---
+
 ### For Beginners
 
 Start with the modules in order, running the example code in each file:
