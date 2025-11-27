@@ -1,10 +1,17 @@
 # LLM Fine-Tuning Examples 🚀
 
-Comprehensive tutorials and examples for fine-tuning Large Language Models using modern techniques like LoRA, QLoRA, and instruction tuning.
+Comprehensive **educational** tutorials for understanding fine-tuning from first principles. Learn how LoRA, QLoRA, and instruction tuning work by implementing them from scratch.
 
-**🎯 Goal**: Learn practical fine-tuning techniques used by Unsloth AI and the open-source community.
+**🎯 Goal**: Build foundational understanding before using production libraries like [Unsloth AI](https://github.com/unslothai/unsloth).
+
+**🔥 Philosophy**: 
+- **Learn by Building**: Implement LoRA from scratch to truly understand it
+- **Theory to Practice**: Mathematical foundations → Code → Real examples
+- **Then Optimize**: After understanding, use [Unsloth](https://github.com/unslothai/notebooks) for production (2x faster, 30% less memory)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/)
+
+> **Note**: These tutorials are **educational** (implement from scratch). For **production** fine-tuning, see [Unsloth AI's 100+ optimized notebooks](https://github.com/unslothai/notebooks) after completing these fundamentals.
 
 ---
 
@@ -106,13 +113,32 @@ Comprehensive tutorials and examples for fine-tuning Large Language Models using
 
 ##  Learning Path
 
-### Recommended Order:
+### Complete Journey: Theory → Implementation → Production
 
-1. **Start with Foundations**: Complete [transformer-foundation/](../transformer-foundation/) tutorials 1-6
-2. **Understand Architecture**: Study [src/](../src/) implementation
-3. **Read Papers**: Review [papers/](../papers/) - especially DeepSeek-R1
-4. **Begin Fine-Tuning**: Work through tutorials 1-5 in this directory
-5. **Practice**: Try examples with your own data
+**Phase 1: Foundation (Start Here)**
+1. **Transformer Basics**: Complete [transformer-foundation/](../transformer-foundation/) tutorials 1-6
+2. **Architecture Deep-Dive**: Study [src/](../src/) implementation
+3. **Research Papers**: Review [papers/](../papers/) - Attention is All You Need, DeepSeek-R1
+
+**Phase 2: Fine-Tuning Fundamentals (This Directory)**
+4. **Tutorial 1**: Understand fine-tuning strategies and LoRA theory
+5. **Tutorial 2**: Implement LoRA from scratch in PyTorch
+6. **Tutorial 3**: Master data preparation and tokenization
+7. **Tutorial 4**: Build complete training pipelines
+8. **Tutorial 5**: Learn evaluation metrics and validation
+
+**Phase 3: Production (Next Steps)**
+9. **Unsloth Library**: Install and explore [unslothai/unsloth](https://github.com/unslothai/unsloth)
+10. **Production Notebooks**: Use [100+ Unsloth examples](https://github.com/unslothai/notebooks) for real models
+11. **Optimization**: Apply 2x speed improvements and 30% memory savings
+12. **Deploy**: Build production pipelines with your fine-tuned models
+
+### Why This Order?
+
+✅ **Understand First**: Know *why* LoRA works before using black-box libraries  
+✅ **Debug Better**: When Unsloth fails, you'll know how to fix it  
+✅ **Optimize Smarter**: Understand trade-offs between speed and accuracy  
+✅ **Innovate**: Create your own techniques based on solid foundations
 
 ### Prerequisites:
 
@@ -131,21 +157,42 @@ Comprehensive tutorials and examples for fine-tuning Large Language Models using
 - **[papers/](../papers/)** - Research papers (Attention is All You Need, DeepSeek-R1)
 - **[tests/](../tests/)** - Unit tests showing module usage
 
-### External Inspirations:
-- **Unsloth AI** - Optimized fine-tuning (referenced in tutorials)
-- **Hugging Face PEFT** - Parameter-efficient fine-tuning library
-- **QLoRA Paper** - Efficient quantized fine-tuning
+### External Resources & Next Steps:
+
+**For Production Use (After Completing These Tutorials)**:
+- **[Unsloth AI](https://github.com/unslothai/unsloth)** - 2x faster fine-tuning with optimized kernels
+- **[Unsloth Notebooks](https://github.com/unslothai/notebooks)** - 100+ production-ready fine-tuning examples
+- **[Unsloth Documentation](https://docs.unsloth.ai/)** - Complete guides for real-world projects
+
+**For Deeper Learning**:
+- **[Hugging Face PEFT](https://github.com/huggingface/peft)** - Parameter-efficient fine-tuning library
+- **[LoRA Paper](https://arxiv.org/abs/2106.09685)** - Original LoRA research
+- **[QLoRA Paper](https://arxiv.org/abs/2305.14314)** - Efficient quantized fine-tuning
 
 ---
 
 ## 🎯 What Makes This Different?
 
-✨ **From Scratch Understanding**: Built on our custom Transformer implementation  
-🔗 **Connected Learning**: References transformer-foundation tutorials  
-📊 **Visual Learning**: Heavy visualization of concepts  
-🎓 **Research-Backed**: References papers in ../papers/  
-💡 **Practical Focus**: Real-world fine-tuning techniques  
-🚀 **Colab-Ready**: Run everything in browser
+### Educational vs. Production Approach
+
+**Our Tutorials (Educational Foundation)**:
+✨ **From Scratch Understanding**: Implement LoRA manually to understand how it works  
+🔗 **Connected Learning**: Build on our custom Transformer implementation  
+📊 **Visual Learning**: Heavy visualization of concepts and mathematics  
+🎓 **Research-Backed**: Deep-dive into papers and theory  
+💡 **No External Libraries**: Pure PyTorch implementation for learning  
+
+**Unsloth AI (Production Ready)**:
+🚀 **Optimized Library**: Use [Unsloth](https://github.com/unslothai/unsloth) for 2x faster training  
+⚡ **Memory Efficient**: 30% less VRAM usage with optimized kernels  
+🎯 **Model-Specific**: Pre-configured for Llama, Gemma, Mistral, Qwen, etc.  
+📦 **Ready-to-Deploy**: Production pipelines with [100+ notebooks](https://github.com/unslothai/notebooks)  
+
+**Recommended Learning Path**:
+1. **Start Here** (Educational): Understand LoRA theory and implementation from scratch
+2. **Then Use Unsloth** (Production): Apply knowledge with optimized library for real projects
+
+This tutorial series is **inspired by** and **complementary to** Unsloth AI's approach, focusing on foundational understanding before production usage.
 
 ---
 
