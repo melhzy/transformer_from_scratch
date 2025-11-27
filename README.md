@@ -135,11 +135,15 @@ jupyter lab
 
 ### For Practitioners
 
-Check out the fine-tuning examples in `llm-fine-tune/`:
+Explore the comprehensive fine-tuning tutorial series in `llm-fine-tune/`:
 
-- `train_translation.py` — Machine translation example
-- `text_generation.py` — Autoregressive text generation
-- `attention_visualization.py` — Visualize attention patterns
+1. **01_introduction_to_fine_tuning.ipynb** — Fine-tuning strategies, LoRA theory
+2. **02_lora_implementation.ipynb** — Implement LoRA from scratch
+3. **03_data_preparation.ipynb** — Dataset formats and tokenization
+4. **04_instruction_tuning.ipynb** — Complete training pipeline
+5. **05_evaluation_metrics.ipynb** — BLEU, ROUGE, perplexity
+
+See [llm-fine-tune/README.md](llm-fine-tune/README.md) for detailed learning path
 
 ## 🏗️ Project Structure
 
@@ -153,8 +157,8 @@ transformer_from_scratch/
 │   │   ├── attention.py          # Scaled dot-product attention
 │   │   ├── multi_head_attention.py # Multi-head attention
 │   │   ├── feed_forward.py       # Feed-forward networks
-│   │   ├── encoder.py            # Encoder layers
-│   │   └── decoder.py            # Decoder layers
+│   │   ├── encoder.py            # TransformerEncoder and EncoderLayer
+│   │   └── decoder.py            # TransformerDecoder and DecoderLayer
 │   ├── transformer.py            # Complete Transformer model
 │   └── __init__.py
 │
@@ -175,13 +179,20 @@ transformer_from_scratch/
 │   ├── test_decoder.py
 │   └── test_transformer.py
 │
-├── llm-fine-tune/                 # LLM fine-tuning examples
-│   ├── train_translation.py
-│   ├── text_generation.py
-│   └── attention_visualization.py
+├── llm-fine-tune/                 # LLM fine-tuning tutorials
+│   ├── 01_introduction_to_fine_tuning.ipynb
+│   ├── 02_lora_implementation.ipynb
+│   ├── 03_data_preparation.ipynb
+│   ├── 04_instruction_tuning.ipynb
+│   ├── 05_evaluation_metrics.ipynb
+│   ├── archive/                  # Older examples
+│   │   ├── text_generation.py
+│   │   └── attention_visualization.py
+│   └── README.md
 │
 ├── papers/                        # Reference papers
-│   └── (Add "Attention Is All You Need" PDF here)
+│   ├── attention-is-all-you-need.pdf
+│   └── DeepSeek-R1-paper.pdf
 │
 ├── pyproject.toml                # Project configuration
 ├── requirements.txt              # Dependencies
@@ -237,6 +248,16 @@ entropy = compute_attention_entropy(attention_weights)
 # Find similar tokens
 neighbors = get_nearest_neighbors(embedding_layer, token_idx=42, top_k=5)
 ```
+
+### 5. Fine-Tuning Techniques
+
+Comprehensive tutorials on modern fine-tuning methods:
+
+- **LoRA (Low-Rank Adaptation)**: Efficient parameter-efficient fine-tuning
+- **Data Preparation**: Tokenization, dataset formats, quality control
+- **Instruction Tuning**: Training pipelines with learning rate scheduling
+- **Evaluation Metrics**: BLEU, ROUGE, perplexity, F1 scores
+- **Memory Optimization**: Gradient accumulation, checkpointing
 
 ## 📖 Architecture Details
 
