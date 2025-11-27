@@ -17,6 +17,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 - **Tutorial 1** (Introduction): `unsloth/Llama-3.2-1B-Instruct-bnb-4bit` - Small & fast for quick demonstrations
 - **Tutorial 2** (LoRA): `unsloth/Llama-3.1-8B-Instruct-bnb-4bit` - Production-ready example
+- **Tutorial 6** (QLoRA): `unsloth/Llama-3.2-1B-Instruct-bnb-4bit` - 4-bit quantization demonstration
 
 **Why 4-bit?** QLoRA (4-bit quantization + LoRA) enables training large models on consumer GPUs while maintaining 99% of full precision performance. All Unsloth models use optimized 4-bit quantization for maximum efficiency.
 
@@ -123,6 +124,26 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 ---
 
+### Tutorial 6: QLoRA - 4-bit Quantization ✅
+**File**: [06_qlora_quantization.ipynb](06_qlora_quantization.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/06_qlora_quantization.ipynb)  
+**Time**: ~75 minutes  
+**Status**: Complete
+
+**What You'll Learn**:
+- Understanding 4-bit quantization (NF4, FP4)
+- Implementing quantization from scratch
+- QLoRA architecture: 4-bit base + FP16 adapters
+- Memory comparison: Full vs LoRA vs QLoRA
+- Production QLoRA with Unsloth
+- Training 7B+ models on consumer GPUs
+
+**Prerequisites**:
+- Tutorials 1-2
+- Basic understanding of quantization
+
+---
+
 ##  Learning Path
 
 ### Complete Journey: Theory → Implementation → Production
@@ -138,6 +159,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 6. **Tutorial 3**: Master data preparation and tokenization
 7. **Tutorial 4**: Build complete training pipelines
 8. **Tutorial 5**: Learn evaluation metrics and validation
+9. **Tutorial 6**: Master QLoRA for memory-efficient training
 
 **Phase 3: Production (Next Steps)**
 9. **Unsloth Library**: Install and explore [unslothai/unsloth](https://github.com/unslothai/unsloth)
