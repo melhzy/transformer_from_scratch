@@ -121,7 +121,7 @@ jupyter lab
 
 ### For Practitioners
 
-Check out the examples in `examples/`:
+Check out the fine-tuning examples in `llm-fine-tune/`:
 
 - `train_translation.py` — Machine translation example
 - `text_generation.py` — Autoregressive text generation
@@ -161,7 +161,7 @@ transformer_from_scratch/
 │   ├── test_decoder.py
 │   └── test_transformer.py
 │
-├── examples/                      # Example applications
+├── llm-fine-tune/                 # LLM fine-tuning examples
 │   ├── train_translation.py
 │   ├── text_generation.py
 │   └── attention_visualization.py

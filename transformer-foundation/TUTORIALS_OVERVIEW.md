@@ -355,8 +355,8 @@ Tutorial 7 (Reasoning) ←─── Applications & insights
 - "Training Verifiers to Solve Math Word Problems" (Cobbe et al., 2021)
 
 ### Code Examples
-- `examples/attention_visualization.py` - Visualize attention patterns
-- `examples/text_generation.py` - Generation strategies demo
+- `llm-fine-tune/attention_visualization.py` - Visualize attention patterns
+- `llm-fine-tune/text_generation.py` - Generation strategies demo
 - `tests/` - Unit tests for all modules (90+ tests)
 
 ### Documentation

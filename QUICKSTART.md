@@ -103,10 +103,10 @@ python src/transformer.py
 
 ```bash
 # Visualize attention patterns
-python examples/attention_visualization.py
+python llm-fine-tune/attention_visualization.py
 
 # Try text generation
-python examples/text_generation.py
+python llm-fine-tune/text_generation.py
 ```
 
 ### Open Jupyter Notebooks
@@ -200,7 +200,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 
 - 📖 Read the [full README](README.md)
 - 📓 Try the [Jupyter notebooks](transformer-foundation/)
-- 🔬 Run the [examples](examples/)
+- 🔬 Run the [fine-tuning examples](llm-fine-tune/)
 - 🧪 Study the [tests](tests/)
 
 ### Experiment

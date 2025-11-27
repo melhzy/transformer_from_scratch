@@ -1,6 +1,6 @@
-# Transformer From Scratch - Examples
+# LLM Fine-Tuning Examples
 
-This directory contains example scripts demonstrating how to use the Transformer implementation.
+This directory contains example scripts for fine-tuning and working with Transformer models, including visualization tools and generation strategies.
 
 ## Available Examples
 
@@ -9,7 +9,7 @@ This directory contains example scripts demonstrating how to use the Transformer
 Visualize attention patterns in encoder and decoder layers:
 
 ```bash
-python examples/attention_visualization.py
+python llm-fine-tune/attention_visualization.py
 ```
 
 **What it does:**
@@ -29,7 +29,7 @@ python examples/attention_visualization.py
 Demonstrate different decoding strategies:
 
 ```bash
-python examples/text_generation.py
+python llm-fine-tune/text_generation.py
 ```
 
 **What it does:**
@@ -48,7 +48,7 @@ python examples/text_generation.py
 Example of training a Transformer for machine translation:
 
 ```bash
-python examples/train_translation.py
+python llm-fine-tune/train_translation.py
 ```
 
 **Features (planned):**
@@ -78,8 +78,8 @@ pip install -r requirements.txt
 
 ```bash
 # Run from the project root directory
-python examples/attention_visualization.py
-python examples/text_generation.py
+python llm-fine-tune/attention_visualization.py
+python llm-fine-tune/text_generation.py
 ```
 
 ### Tips for Learning

@@ -229,7 +229,7 @@ pip install -r requirements.txt
 
 # Run examples
 python src/transformer.py
-python examples/attention_visualization.py
+python llm-fine-tune/attention_visualization.py
 
 # Run tests
 pytest tests/ -v

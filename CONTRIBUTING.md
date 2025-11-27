@@ -45,8 +45,8 @@ We love new ideas! Please:
    pytest tests/ -v
    
    # Check code style
-   black src/ tests/ examples/
-   flake8 src/ tests/ examples/
+   black src/ tests/ llm-fine-tune/
+   flake8 src/ tests/ llm-fine-tune/
    ```
 
 5. **Commit your changes**
