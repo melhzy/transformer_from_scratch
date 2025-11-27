@@ -13,6 +13,15 @@ Comprehensive **educational** tutorials for understanding fine-tuning from first
 
 > **Note**: These tutorials are **educational** (implement from scratch). For **production** fine-tuning, see [Unsloth AI's 100+ optimized notebooks](https://github.com/unslothai/notebooks) after completing these fundamentals.
 
+### 🎯 Models Used
+
+All production examples use **4-bit quantized models** from [Unsloth's official catalog](https://docs.unsloth.ai/get-started/all-our-models):
+
+- **Tutorial 1** (Introduction): `unsloth/Llama-3.2-1B-Instruct-bnb-4bit` - Small & fast for quick demonstrations
+- **Tutorial 2** (LoRA): `unsloth/Llama-3.1-8B-Instruct-bnb-4bit` - Production-ready example
+
+**Why 4-bit?** QLoRA (4-bit quantization + LoRA) enables training large models on consumer GPUs while maintaining 99% of full precision performance. All Unsloth models use optimized 4-bit quantization for maximum efficiency.
+
 ---
 
 ## 📚 Tutorial Series
