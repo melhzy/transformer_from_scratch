@@ -9,8 +9,6 @@ Comprehensive **educational** tutorials for understanding fine-tuning from first
 - **Theory to Practice**: Mathematical foundations → Code → Real examples
 - **Then Optimize**: After understanding, use [Unsloth](https://github.com/unslothai/notebooks) for production (2x faster, 30% less memory)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/)
-
 > **Note**: These tutorials are **educational** (implement from scratch). For **production** fine-tuning, see [Unsloth AI's 100+ optimized notebooks](https://github.com/unslothai/notebooks) after completing these fundamentals.
 
 ### 🎯 Models Used
@@ -28,6 +26,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 ### Tutorial 1: Introduction to Fine-Tuning ✅
 **File**: [01_introduction_to_fine_tuning.ipynb](01_introduction_to_fine_tuning.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/01_introduction_to_fine_tuning.ipynb)  
 **Time**: ~45 minutes  
 **Status**: Complete
 
@@ -46,6 +45,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 ### Tutorial 2: LoRA Implementation ✅
 **File**: [02_lora_implementation.ipynb](02_lora_implementation.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/02_lora_implementation.ipynb)  
 **Time**: ~60 minutes  
 **Status**: Complete
 
@@ -66,6 +66,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 ### Tutorial 3: Data Preparation ✅
 **File**: [03_data_preparation.ipynb](03_data_preparation.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/03_data_preparation.ipynb)  
 **Time**: ~60 minutes  
 **Status**: Complete
 
@@ -85,6 +86,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 ### Tutorial 4: Instruction Tuning ✅
 **File**: [04_instruction_tuning.ipynb](04_instruction_tuning.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/04_instruction_tuning.ipynb)  
 **Time**: ~75 minutes  
 **Status**: Complete
 
@@ -104,6 +106,7 @@ All production examples use **4-bit quantized models** from [Unsloth's official 
 
 ### Tutorial 5: Evaluation Metrics ✅
 **File**: [05_evaluation_metrics.ipynb](05_evaluation_metrics.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/05_evaluation_metrics.ipynb)  
 **Time**: ~60 minutes  
 **Status**: Complete
 
