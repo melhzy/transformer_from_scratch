@@ -95,6 +95,7 @@ print(f"Generated sequence: {generated[0].tolist()}")
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/03_data_preparation.ipynb) Tutorial 3: Data Preparation
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/04_instruction_tuning.ipynb) Tutorial 4: Instruction Tuning
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/05_evaluation_metrics.ipynb) Tutorial 5: Evaluation Metrics
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/melhzy/transformer_from_scratch/blob/main/llm-fine-tune/06_qlora_quantization.ipynb) Tutorial 6: QLoRA Quantization
 
 Click any badge above to open that tutorial directly in Google Colab and start learning immediately!
 
@@ -142,6 +143,7 @@ Explore the comprehensive fine-tuning tutorial series in `llm-fine-tune/`:
 3. **03_data_preparation.ipynb** — Dataset formats and tokenization
 4. **04_instruction_tuning.ipynb** — Complete training pipeline
 5. **05_evaluation_metrics.ipynb** — BLEU, ROUGE, perplexity
+6. **06_qlora_quantization.ipynb** — QLoRA and 4-bit quantization
 
 See [llm-fine-tune/README.md](llm-fine-tune/README.md) for detailed learning path
 
@@ -185,6 +187,7 @@ transformer_from_scratch/
 │   ├── 03_data_preparation.ipynb
 │   ├── 04_instruction_tuning.ipynb
 │   ├── 05_evaluation_metrics.ipynb
+│   ├── 06_qlora_quantization.ipynb
 │   ├── archive/                  # Older examples
 │   │   ├── text_generation.py
 │   │   └── attention_visualization.py
@@ -254,10 +257,11 @@ neighbors = get_nearest_neighbors(embedding_layer, token_idx=42, top_k=5)
 Comprehensive tutorials on modern fine-tuning methods:
 
 - **LoRA (Low-Rank Adaptation)**: Efficient parameter-efficient fine-tuning
+- **QLoRA (4-bit Quantization)**: Memory-efficient training for 7B+ models
 - **Data Preparation**: Tokenization, dataset formats, quality control
 - **Instruction Tuning**: Training pipelines with learning rate scheduling
 - **Evaluation Metrics**: BLEU, ROUGE, perplexity, F1 scores
-- **Memory Optimization**: Gradient accumulation, checkpointing
+- **Memory Optimization**: Gradient accumulation, checkpointing, quantization
 
 ## 📖 Architecture Details
 
